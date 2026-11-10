@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada dos Números</title>
+
+    <style>
+        body{
+            background-color: #000000;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        #multiplicacao{
+            width: 500px;
+            margin: 0 auto;
+            text-align: center;
+            background-color: rgb(78, 76, 76);
+            color: #f70505;
+            box-shadow: 0 5px 7px #f70505;
+            border-radius: 6px;
+        }
+        #resultado{
+            background-color: rgb(78, 76, 76);
+            font-size: 20px;
+        }
+        #numero1, #multiplicar{
+            background-color: rgb(78, 76, 76);
+            color: #c91313;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="multiplicacao">
+        <h1>Tabuada</h1>
+
+        <input type="number" name="numero1" id="numero1">
+        <input type="button" value="Multiplicar" id="multiplicar">
+
+        <div id="resultado"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
